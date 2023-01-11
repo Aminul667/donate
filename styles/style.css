@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #ff5959;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 16px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.section-title {
+  color: #121212;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* header */
+header {
+  padding: 174px 307px;
+  text-align: center;
+  background-image: linear-gradient(0deg, #121212 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/donation0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 130px;
+}
+
+header h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 18px;
+}
+
+header p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* donate-today */
+.donate-today {
+  margin: 0 360px 130px 360px;
+}
+.section-info {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tk-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tk-container {
+  color: #707070;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 44px 12px;
+  /* border: 2px solid red; */
+}
+
+.other-amount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.other-amount input[type="number"] {
+  width: 765px;
+  padding: 10px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #dadada;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* donate-plan */
+.donate-plan {
+  margin: 0 160px 130px 160px;
+}
+.donate-plan-info {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.plans {
+  padding: 55px 30px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.plan-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.plan-2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.plan-3{
+    background-color: rgba(175, 59, 59, 0.1);;
+}
+
+.plan-title {
+  color: #121212;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 30px 0 10px;
+}
+
+.plan-description{
+    color: #707070;
+}
